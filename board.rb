@@ -6,7 +6,7 @@ class Board
 
   def initialize(size = 8)
     @size = size
-    @board = Array.new(size) { Array.new(size, '⬜') }
+    @board = Array.new(size) { Array.new(size, 'X') }
     @knight = nil
   end
 
